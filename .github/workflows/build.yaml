@@ -93,10 +93,6 @@ jobs:
         run: |
           echo "======================================== 版本:$KERNEL_VERSION 当前下载目录"
           pwd
-
-            - name: SSH远程连接（make menuconfig）
-               if: env.SSH_ACTION == 'true'
-               uses: danshui-git/debugger-action@main
              
           # 拷贝配置文件
           cp $GITHUB_WORKSPACE/$CONFIG_FILE /mnt/openwrt/.config
