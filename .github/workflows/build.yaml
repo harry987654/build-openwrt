@@ -33,7 +33,7 @@ jobs:
         working-directory: /mnt
     env:
       # 在这里定义全局变量
-      KERNEL_VERSION: "6.6" # 可选内核版本 6.6 | 6.1 | 5.15 | 5.10 | 5.4
+      KERNEL_VERSION: "6.12" # 可选内核版本 6.6 | 6.1 | 5.15 | 5.10 | 5.4
       CONFIG_FILE: "x86_64.config" # 配置文件
 
     steps:
