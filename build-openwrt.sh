@@ -1,6 +1,6 @@
 #!/bin/bash
 ###
-# @Date         : 2024-02-16 11:03:16
+# @Date         : 2026-03-12 11:03:16
 # @Description  : 用于编译 OpenWrt 固件
 # @example1     : bash build-openwrt.sh 手动输入密码
 # @example2     : bash build-openwrt.sh password 自动输入密码
